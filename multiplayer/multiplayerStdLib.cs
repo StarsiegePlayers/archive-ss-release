@@ -680,9 +680,6 @@ function dropMeteor(%type, %rate, %count, %xHigh1, %yHigh1, %xHigh2, %yHigh2, %x
 // list
 function setDefaultMissionItems() 
 {
-   allowVehicle("all", true);
-   allowComponent("all", true);
-   allowWeapon("all", true);
 }
 
 // Destructable Pad Functionality

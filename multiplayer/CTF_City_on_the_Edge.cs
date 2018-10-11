@@ -62,10 +62,3 @@ function structure::onDestroyed(%this, %attackerId){
 		playAnimSequence(getObjectId("MissionGroup\\BlueBase\\Splash3"), 0, true);
 	}
 }
-
-function setDefaultMissionItems() 
-{
-   allowVehicle("all", true);
-   allowComponent("all", true);
-   allowWeapon("all", true);
-}

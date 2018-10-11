@@ -109,7 +109,13 @@ $MissionCycling::Stage3 =                          "CTF_City_on_the_Edge";
 //-------------------------------------------------
 $server::Mission =                                  $MissionCycling::Stage0;
 
-//Vehicles
-allowVehicle(                                      all,      TRUE  );
-allowComponent(                                    all,      TRUE  );
-allowWeapon(                                       all,      TRUE  );
+// These items will be allowed by default -- your mission script can change these
+// by calling allowVehicle, allowComponent, or allowWeapon
+function setAllowedItems()
+{
+	//Vehicles
+	exec("defaultVehicles.cs");
+	allowComponent(                                    all,      TRUE  );
+	allowWeapon(                                       all,      TRUE  );
+}
+

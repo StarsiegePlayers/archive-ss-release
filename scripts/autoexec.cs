@@ -7,13 +7,16 @@ if (isFile("defaultPrefs.cs") != "")
    exec( "defaultPrefs.cs" );
 }
 
+// if the mission editor is on, give access to the console
+if ($me::enableMissionEditor) 
+   Console::enable(true);
+
 // uncomment this line to enable mission results logging:
 // $missionLogFile = "log.txt";
 
 // without this access key, the movie recorder playback screen
 // will be automatically loaded after the splash screen (instead of the main menu)
 $AccessKey = "2829";
-
 
 // the player limit for non dedicated servers
 $server::NoneDedicatedPlayerLimit = 16;
@@ -38,4 +41,5 @@ bind( keyboard, make, alt, 7, to, "orbitPlayer(20,  90, 20);");
 bind( keyboard, make, alt, 8, to, "orbitPlayer(20, 270, 20);");
 bind( keyboard, make, alt, 9, to, "focusCamera(player);");
 
+bind( keyboard, make, alt, f5, TO, "meModetoggle();");
 

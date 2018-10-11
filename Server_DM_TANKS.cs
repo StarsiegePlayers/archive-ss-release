@@ -114,42 +114,48 @@ $MissionCycling::Stage15 =                         "DM_Twin_Siege";
 //-------------------------------------------------
 $server::Mission =                                  $MissionCycling::Stage0;
 
-//Vehicles
-allowVehicle(                                      all,     FALSE  );
-allowVehicle(                                           25,  TRUE  );      //Bolo
-allowVehicle(                                           26,  TRUE  );      //Recluse
-allowVehicle(                                           41,  TRUE  );      //Predator
-allowVehicle(                                           31,  TRUE  );      //Avenger
-allowVehicle(                                           32,  TRUE  );      //Dreadlock
-allowVehicle(                                            8,  TRUE  );      //Disrupter
-allowVehicle(                                            7,  TRUE  );      //Myrmidon
-allowVehicle(                                            6,  TRUE  );      //Paladin
-allowVehicle(                                           17,  TRUE  );      //Knight Disrupter
-allowVehicle(                                           16,  TRUE  );      //Knight Myrmidon
-allowVehicle(                                           15,  TRUE  );      //Knight Paladin
-allowVehicle(                                          138,  TRUE  );
-allowVehicle(                                          150,  TRUE  );
+// These items will be allowed by default -- your mission script can change these
+// by calling allowVehicle, allowComponent, or allowWeapon
+function setAllowedItems()
+{
+	//Vehicles
+	allowVehicle( all, false );
+	allowVehicle(                                           25,  TRUE  );      //Bolo
+	allowVehicle(                                           26,  TRUE  );      //Recluse
+	allowVehicle(                                           41,  TRUE  );      //Predator
+	allowVehicle(                                           31,  TRUE  );      //Avenger
+	allowVehicle(                                           32,  TRUE  );      //Dreadlock
+	allowVehicle(                                            8,  TRUE  );      //Disrupter
+	allowVehicle(                                            7,  TRUE  );      //Myrmidon
+	allowVehicle(                                            6,  TRUE  );      //Paladin
+	allowVehicle(                                           17,  TRUE  );      //Knight Disrupter
+	allowVehicle(                                           16,  TRUE  );      //Knight Myrmidon
+	allowVehicle(                                           15,  TRUE  );      //Knight Paladin
+	allowVehicle(                                          138,  TRUE  );
+	allowVehicle(                                          150,  TRUE  );
 
-//weapons
-allowWeapon(                                       all,      TRUE  );
+	//weapons
+	allowWeapon(                                       all,      TRUE  );
 
-//Components
+	//Components
+	allowComponent(                                    all,      TRUE  );
 
-allowComponent(                                    all,      TRUE  );
-//Shields (disabled for tanks)
-allowComponent(                                        300, FALSE  );      //Human Standard Shield
-allowComponent(                                        301, FALSE  );      //Human Protector Shield
-allowComponent(                                        302, FALSE  );      //Human Guardian Shield
-allowComponent(                                        303, FALSE  );      //Human FastCharge Shield
-allowComponent(                                        304, FALSE  );      //Human Centurian Shield
-allowComponent(                                        305, FALSE  );      //Human Repulsor Shield
-allowComponent(                                        306, FALSE  );      //Human Titan Shield
-allowComponent(                                        307, FALSE  );      //Human Medusa Shield
-allowComponent(                                        326, FALSE  );      //Cybrid Alpha Shield
-allowComponent(                                        327, FALSE  );      //Cybrid Beta Shield
-allowComponent(                                        328, FALSE  );      //Cybrid Gamma Shield
-allowComponent(                                        329, FALSE  );      //Cybrid Delta Shield
-allowComponent(                                        330, FALSE  );      //Cybrid Epsilon Shield
-allowComponent(                                        331, FALSE  );      //Cybrid Zeta Shield
-allowComponent(                                        332, FALSE  );      //Cybrid Eta Shield
-allowComponent(                                        333, FALSE  );      //Cybrid Theta Shield
+	//Shields (disabled for tanks)
+	allowComponent(                                        300, FALSE  );      //Human Standard Shield
+	allowComponent(                                        301, FALSE  );      //Human Protector Shield
+	allowComponent(                                        302, FALSE  );      //Human Guardian Shield
+	allowComponent(                                        303, FALSE  );      //Human FastCharge Shield
+	allowComponent(                                        304, FALSE  );      //Human Centurian Shield
+	allowComponent(                                        305, FALSE  );      //Human Repulsor Shield
+	allowComponent(                                        306, FALSE  );      //Human Titan Shield
+	allowComponent(                                        307, FALSE  );      //Human Medusa Shield
+	allowComponent(                                        326, FALSE  );      //Cybrid Alpha Shield
+	allowComponent(                                        327, FALSE  );      //Cybrid Beta Shield
+	allowComponent(                                        328, FALSE  );      //Cybrid Gamma Shield
+	allowComponent(                                        329, FALSE  );      //Cybrid Delta Shield
+	allowComponent(                                        330, FALSE  );      //Cybrid Epsilon Shield
+	allowComponent(                                        331, FALSE  );      //Cybrid Zeta Shield
+	allowComponent(                                        332, FALSE  );      //Cybrid Eta Shield
+	allowComponent(                                        333, FALSE  );      //Cybrid Theta Shield
+}
+
