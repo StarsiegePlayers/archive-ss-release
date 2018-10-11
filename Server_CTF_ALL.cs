@@ -110,6 +110,8 @@ $MissionCycling::Stage3 =                          "CTF_City_on_the_Edge";
 $server::Mission =                                  $MissionCycling::Stage0;
 
 //Vehicles
-allowVehicle(                                      all,      TRUE  );
+exec("defaultVehicles.cs");
 allowComponent(                                    all,      TRUE  );
 allowWeapon(                                       all,      TRUE  );
+
+

@@ -116,7 +116,7 @@ $MissionCycling::Stage15 =                         "DM_Twin_Siege";
 $server::Mission =                                  $MissionCycling::Stage0;
 
 //Vehicles
-allowVehicle(                                      all,     FALSE  );
+exec("defaultVehicles.cs");
 
 allowVehicle(                                           21,  TRUE  );      //Goad
 allowVehicle(                                            5,  TRUE  );      //Terran Basilisk
@@ -259,3 +259,5 @@ allowComponent(                                        900, FALSE  );      //Ang
 allowComponent(                                        910, FALSE  );      //Agrav Generator
 allowComponent(                                        912, FALSE  );      //ElectroHull
 allowComponent(                                        914,  TRUE  );      //UAP
+
+

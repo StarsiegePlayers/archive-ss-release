@@ -107,7 +107,7 @@ $MissionCycling::Stage0 =                          "Starsiege_football";
 $server::Mission =                                  $MissionCycling::Stage0;
 
 //Vehicles
-allowVehicle(                                      all,      TRUE  );
+exec("defaultVehicles.cs");
 
 //weapons
 allowWeapon(                                       all,     FALSE  );
@@ -272,3 +272,5 @@ allowComponent(                                        900,  TRUE  );      //Ang
 allowComponent(                                        910, FALSE  );      //Agrav Generator
 allowComponent(                                        912,  TRUE  );      //ElectroHull
 allowComponent(                                        914,  TRUE  );      //UAP
+
+

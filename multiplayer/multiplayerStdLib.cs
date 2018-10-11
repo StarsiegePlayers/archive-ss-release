@@ -680,7 +680,7 @@ function dropMeteor(%type, %rate, %count, %xHigh1, %yHigh1, %xHigh2, %yHigh2, %x
 // list
 function setDefaultMissionItems() 
 {
-   allowVehicle("all", true);
+	exec("defaultVehicles");
    allowComponent("all", true);
    allowWeapon("all", true);
 }

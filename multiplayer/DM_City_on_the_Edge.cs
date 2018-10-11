@@ -55,7 +55,7 @@ function structure::onDestroyed(%this, %attackerId){
 
 function setDefaultMissionItems() 
 {
-   allowVehicle("all", true);
+	exec("defaultVehicles");
    allowComponent("all", true);
    allowWeapon("all", true);
 }

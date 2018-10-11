@@ -115,7 +115,7 @@ $MissionCycling::Stage15 =                         "DM_Twin_Siege";
 $server::Mission =                                  $MissionCycling::Stage0;
 
 //Vehicles
-allowVehicle(                                      all,     FALSE  );
+exec("defaultVehicles.cs");
 allowVehicle(                                           25,  TRUE  );      //Bolo
 allowVehicle(                                           26,  TRUE  );      //Recluse
 allowVehicle(                                           41,  TRUE  );      //Predator
@@ -153,3 +153,5 @@ allowComponent(                                        330, FALSE  );      //Cyb
 allowComponent(                                        331, FALSE  );      //Cybrid Zeta Shield
 allowComponent(                                        332, FALSE  );      //Cybrid Eta Shield
 allowComponent(                                        333, FALSE  );      //Cybrid Theta Shield
+
+

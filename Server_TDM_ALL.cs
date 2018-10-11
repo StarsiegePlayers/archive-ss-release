@@ -122,6 +122,7 @@ $MissionCycling::Stage15 =                         "DM_Twin_Siege";
 $server::Mission =                                  $MissionCycling::Stage0;
 
 //Vehicles
-allowVehicle(                                      all,      TRUE  );
+exec("defaultVehicles.cs");
 allowComponent(                                    all,      TRUE  );
 allowWeapon(                                       all,      TRUE  );
+

@@ -109,7 +109,7 @@ $MissionCycling::Stage0 =                           "WAR_martian_standoff";
 $server::Mission =                                  $MissionCycling::Stage0;
 
 //Vehicles
-allowVehicle(                                      all,     FALSE  );
+exec("defaultVehicles.cs");
 allowVehicle(                                           20,  TRUE  );      //Seeker
 allowVehicle(                                           21,  TRUE  );      //Goad
 allowVehicle(                                           22,  TRUE  );      //Shepherd
@@ -314,3 +314,4 @@ allowComponent(                                        900,  TRUE  );      //Ang
 allowComponent(                                        910,  TRUE  );      //Agrav Generator
 allowComponent(                                        912,  TRUE  );      //ElectroHull
 allowComponent(                                        914, FALSE  );      //UAP
+
