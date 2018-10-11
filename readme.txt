@@ -1,40 +1,35 @@
-Starsiege
-1.0
-Readme File
-2/23/99
+STARSIEGE
+README FILE
+V. 1.02 4/15/99
 
-***********************************************************************
 About This Document:
-Thank you for purchasing Starsiege. 
+Thank you for Purchasing Starsiege, the ultimate in giant mechanized combat! 
 This document contains last-minute information about Starsiege and other 
 troubleshooting information not found in the manual. This README file 
 includes information pertinent to general problems and questions you may have 
 concerning this software or your computer. Should you experience any problems 
 with Starsiege, please refer to this file for additional help in answering 
 questions about the game and solving technical difficulties.
-***********************************************************************
 
-I: System Compatibility 
-II: OpenGL
-III: Internet Service Provider 
-IV: Updates and Patches 
-V: Hosting A Game 
-VI: Network Performance Tuning 
-VII: Known Problems 
-VIII: Troubleshooting 
-IX: Contacting Sierra 
-X: Technical Support 
-XI: Warranty and Legal Information 
+CONTENTS:
+I:	SYSTEM COMPATIBILITY 
+II:	OPENGL
+III:	INTERNET SERVICE PROVIDER 
+IV:	UPDATES AND PATCHES 
+V:	HOSTING A GAME 
+VI:	NETWORK PERFORMANCE TUNING 
+VII:	KNOWN PROBLEMS 
+VIII:	TROUBLESHOOTING 
+IX:	CONTACTING SIERRA 
 
-Thank you for Purchasing Starsiege, the ultimate in giant mechanized combat! 
 
-I: System Compatibility 
+I: SYSTEM COMPATIBILITY 
 
 These are the minimum machine requirements needed to run Starsiege: 
 Pentium 166, 32 MB RAM with 3D Graphics Accelerator 
 Pentium 200, 32 MB RAM without a Graphics Accelerator 
-324MB Hard Disk space (full install)
-264MB Hard Disk space (Buddy install)
+324MB Hard Disk space (Full Install)
+264MB Hard Disk space (Buddy Install)
 
 Platforms: 
 Windows 95/98 w/DirectX6
@@ -66,10 +61,12 @@ installed, you will need to download it from WWW.MICROSOFT.COM.
 We recommend that you configure Windows with at least 200mb of virtual memory 
 before running Starsiege.
 
-II: OpenGL
+
+II: OPENGL
 
 Starsiege supports OpenGL on video cards that use the nVidia Riva TNT 
-chipset. By the time you read this, other cards will be supported. Please see 
+chipset, the Intel i740 chipset, and the S3 Savage3D shipset. By the time you 
+read this, other cards should be supported. Please see 
 www.starsiegeplayers.com for details.
 
 To use OpenGL on a Riva TNT based card, you must have the latest drivers. 
@@ -78,9 +75,18 @@ Detonator Drivers" folder on Starsiege Disk #1. To install the Detonator
 drivers, double-click on the "tnt_detonator.exe" application (in the 
 aforementioned folder), and follow the on-screen instructions very carefully.
 
+To use OpenGL on any other card, be absolutely sure you have the latest 
+drivers from the manufacturer.
+
 To run Starsiege in OpenGL mode, go to the Options screen from the Main Menu. 
 In the "Full Screen Mode" drop-down box, select "OpenGL". From the "3D 
 Hardware Type" drop-down box, select the chipset used on your video card. 
+
+If you are experiencing low frame rates or "jerkyness" in Starsiege, try 
+reducing some of the graphics detail levels (available from the "Graphics" 
+tab in the Options menu, or from by pressing F11 during actual game play).  
+Minor adjustments in detail levels, especially the "Scenery Detail" can 
+significantly impact game performance.
 
 If you experience problems running Starsiege in OpenGL, try reducing the 
 color depth of your desktop from 32 bit (True Color) to 16 bit (65536 
@@ -93,14 +99,14 @@ solution is to drag your taskbar to the bottom of your desktop, or uncheck
 the "Always On Top" box that is located in the "Taskbar Properties" dialog 
 box, which is available from the Settings menu in the Start menu.
 
-III: Internet Server Provider 
+III: INTERNET SERVER PROVIDER 
 
 To enjoy Starsiege fully, you must be connected to the Internet via a 
 reliable Internet Service Provider (ISP). If you do not currently have an 
 ISP, install the AT&T WorldNet(R) Service provided on the CD-ROM by running 
 the Starsiege setup program. 
 
-IV: Updates and Patches 
+IV: UPDATES AND PATCHES 
 
 Running the Auto-Update program from the Starsiege Start menu will check 
 automatically for any patches or updates to the game. You must be connected 
@@ -108,7 +114,7 @@ to the Internet for this program to work correctly. We also recommend you
 check the Starsiege web site at www.starsiegeplayers.com for the latest 
 information. 
 
-V: Hosting A Game 
+V: HOSTING A GAME 
 
 Hosting a game with more than a few players takes a fair amount of bandwidth. 
 Hosting over a 28.8 modem connection is not recommended. By default, all 
@@ -141,7 +147,7 @@ In a multiplayer game with a mass limit set, the maximum tonnage displayed in
 the vehicle lab will be the lesser of the vehicle's maximum tonnage OR the 
 server mass limit.
 
-V: Network Performance Tuning
+VI: NETWORK PERFORMANCE TUNING 
 
 If you have a reliable connection to your ISP, but are still experiencing 
 packet loss and lag in the game, you can use a Packet Rate option to help 
@@ -150,7 +156,8 @@ We recommend that you decrease the packet rate if you are experiencing
 problems. See Section 4: Modem Connection Problems, below, for more 
 information.
 
-VII: Known Issues 
+VII: KNOWN PROBLEMS 
+
 Here is a list of some of the known problems and interactions with other 
 programs. 
 You cannot run Starsiege with the Windows Display Properties dialog box 
@@ -297,7 +304,7 @@ configurations, preferences, or any other files from the Alpha Technology
 Release Demo that was released in the summer of 98. These files are not 
 compatible with the final release of Starsiege. 
 
-VIII: Troubleshooting 
+VII: TROUBLESHOOTING 
 
 We hope you enjoy playing Starsiege. If you experience any difficulties in 
 getting the game to operate to your satisfaction, please read further. If the 
@@ -454,7 +461,7 @@ that you created in step 4. Close all programs as listed in step 2. Then run
 SETUP from your Starsiege CD again and reinstall the game. For further 
 information, see the Starsiege web page at www.starsiegeplayers.com.
 
-IX. Contacting Sierra
+IX: CONTACTING SIERRA 
 
 A) Customer Service, Support, and Sales
 B) Technical Support
@@ -525,25 +532,6 @@ Internet USA: http://www.sierra.com
 Internet United Kingdom: http://www.sierra-online.co.uk
 Internet France: http://www.sierra.fr
 Internet Germany: http://www.sierra.de
-
-Disk and or Manual Replacement: 
-
-Product Returns:
-Sierra On-Line Returns
-4100 West 190th Street
-Torrance, CA 90504
-
-Sierra On-Line Fulfillment 
-4100 West 190th Street 
-Torrance, CA 90504 
-
-NOTE: To replace your disk(s) please send only Disk #1 (or the CD) and copy 
-of your dated Receipt, if less then 90 days. After 90 days please
-include a $10 handling fee along with Disk / CD #1. For Documentation, please 
-include a $ 5.00 handling fee and a photocopy ONLY of disk #1.
-Payment should be made at the time of your request. Sorry, no credit cards. 
-
-* Returns to this address valid in North America only.
 
 
 B) TECHNICAL SUPPORT
